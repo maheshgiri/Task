@@ -25,20 +25,20 @@ Button signUpButton,SkipButton;
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
-            case R.id.signUpButton:
-                Intent intent=new Intent(this,HomeAcitivity.class);
-                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                startActivity(intent);
-                break;
-            case R.id.skipButton:
-                Intent intentSkip=new Intent(this,HomeAcitivity.class);
-                intentSkip.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                startActivity(intentSkip);
-                break;
-        }
+//     /*   switch (v.getId()){
+//            case R.id.signUpButton:
+//                Intent intent=new Intent(this,HomeAcitivity.class);
+//                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+//                startActivity(intent);
+//                break;
+//            case R.id.skipButton:
+//                Intent intentSkip=new Intent(this,HomeAcitivity.class);
+//                intentSkip.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+//                startActivity(intentSkip);
+//                break;
+//        }
+// */   }
     }
-
     @Override
     public void onBackPressed() {
         super.onBackPressed();
